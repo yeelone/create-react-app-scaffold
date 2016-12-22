@@ -1,0 +1,6 @@
+#main {
+  height: calc(100% - 150px);
+  background: #ccc;
+  overflow-y: auto;
+}
+   

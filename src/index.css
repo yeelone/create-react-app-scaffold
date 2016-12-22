@@ -1,5 +1,35 @@
+[data-reactroot] {
+  height: 100% !important; 
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,       /*结构元素 */
+dl, dt, dd, ul, ol, li,          /*列表元素 */
+pre,     /* 文本格式元素 */
+fieldset, lengend, button, input, textarea,    /*表单元素 */
+th, td   /* 表格元素 */ 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+html ,body {
+  width: 100%;
+  height: 100%;
+    margin: 0;
+  padding: 0;
+}
+
 body {
+  font-family: sans-serif;
+  position:relative;
+}
+
+div{
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+#root {
+  height: 100%;
 }

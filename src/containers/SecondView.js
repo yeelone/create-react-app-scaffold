@@ -1,12 +1,8 @@
-import React, { Component, PropTypes } from 'react'
+import  React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Link } from 'react-router'
 
 class SecondView extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {  
       return (
           <div>
